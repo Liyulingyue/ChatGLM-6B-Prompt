@@ -1,8 +1,6 @@
 # run the file to add a prompt
 # dont push the file
 
-
-
 # 读取配置信息
 import json
 with open('prompts.json') as f:
