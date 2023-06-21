@@ -14,5 +14,7 @@ a_prompt = {'name': '请输入一个简单易懂的名称',
 data.append(a_prompt)
 
 # 保存到文件中
+# 使用indent和ensure_asscii=False以提高可读性
 with open('prompts.json','w') as f:
-    json.dump(data,f)
+    json.dump(data,f,indent=True,ensure_ascii=False)
+    
